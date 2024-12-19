@@ -1,13 +1,37 @@
-# Microsoft Services
-# optimized from https://gist.github.com/TTTPOB/ce93fb3b04ba2f21880b09427442d831
-# source: https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges
-DOMAIN-KEYWORD,1drv
+# 内容: Ⓜ️ 微软服务 规则集
+# 备注: 本列表为微软服务直连域名，其他移步至https://github.com/mphin/ProxyTools
+# 更新: 2024年04月02日13:20:04
+# 数量: 98条
+
+DOMAIN-SUFFIX,appcenter.ms
+DOMAIN-SUFFIX,azurefd.net
+DOMAIN-SUFFIX,nelreports.net
+
+# 微软Bing
+DOMAIN-SUFFIX,copilot.microsoft.com
+
+# Windows10更新
+DOMAIN-SUFFIX,wac.phicdn.net
+
+# Microsoft-365
+DOMAIN-SUFFIX,sharepoint-df.com
+
+# Microsoft-Edge
+DOMAIN-SUFFIX,img-s-msn-com.akamaized.net
+DOMAIN-SUFFIX,s1325.t.eloqua.com
+DOMAIN-SUFFIX,sapphire.bingviz.com
+DOMAIN-SUFFIX,sb.scorecardresearch.com
+
+# 手机连接
+DOMAIN-SUFFIX,default.exp-tas.com
+
+# ------------------------------------------------
+# 以下规则来源为ACL4SSR，仅删除部分重复
 DOMAIN-KEYWORD,microsoft
 DOMAIN-SUFFIX,aadrm.com
 DOMAIN-SUFFIX,acompli.com
 DOMAIN-SUFFIX,acompli.net
 DOMAIN-SUFFIX,aka.ms
-DOMAIN-SUFFIX,akadns.net
 DOMAIN-SUFFIX,aspnetcdn.com
 DOMAIN-SUFFIX,assets-yammer.com
 DOMAIN-SUFFIX,azure.com
@@ -48,7 +72,6 @@ DOMAIN-SUFFIX,office.net
 DOMAIN-SUFFIX,office365.com
 DOMAIN-SUFFIX,officeppe.net
 DOMAIN-SUFFIX,omniroot.com
-DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,onenote.com
 DOMAIN-SUFFIX,onenote.net
 DOMAIN-SUFFIX,onestore.ms
@@ -58,8 +81,6 @@ DOMAIN-SUFFIX,phonefactor.net
 DOMAIN-SUFFIX,public-trust.com
 DOMAIN-SUFFIX,sfbassets.com
 DOMAIN-SUFFIX,sfx.ms
-DOMAIN-SUFFIX,sharepoint.com
-DOMAIN-SUFFIX,sharepointonline.com
 DOMAIN-SUFFIX,skype.com
 DOMAIN-SUFFIX,skypeassets.com
 DOMAIN-SUFFIX,skypeforbusiness.com
@@ -80,3 +101,21 @@ DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,wunderlist.com
 DOMAIN-SUFFIX,yammer.com
 DOMAIN-SUFFIX,yammerusercontent.com
+# OneDrive
+PROCESS-NAME,OneDrive
+PROCESS-NAME,OneDriveUpdater
+USER-AGENT,OneDrive*
+USER-AGENT,OneDriveiOSApp*
+DOMAIN-KEYWORD,1drv
+DOMAIN-KEYWORD,onedrive
+DOMAIN-KEYWORD,skydrive
+DOMAIN-SUFFIX,livefilestore.com
+DOMAIN-SUFFIX,oneclient.sfx.ms
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,onedrive.live.com
+DOMAIN-SUFFIX,photos.live.com
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,sharepointonline.com
+DOMAIN-SUFFIX,skydrive.wns.windows.com
+DOMAIN-SUFFIX,spoprod-a.akamaihd.net
+DOMAIN-SUFFIX,storage.live.com

@@ -1,26 +1,65 @@
-# 内容：Google
-# 数量：24条
-DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,google
-DOMAIN-SUFFIX,1e100.net
+# 内容: 📢 谷歌服务 规则集
+# 备注: 本列表为谷歌推送直连域名，其他移步至https://github.com/mphin/ProxyTools
+# 更新: 2024年04月02日13:20:06
+# 数量: 55条
+
+
+# ------------------------------------------------
+# 以下规则来源为ACL4SSR，仅删除部分重复
+# 谷歌推送服务
+DOMAIN,mtalk.google.com
+IP-CIDR,108.177.125.188/32,no-resolve
+IP-CIDR,142.250.10.188/32,no-resolve
+IP-CIDR,142.250.31.188/32,no-resolve
+IP-CIDR,142.250.4.188/32,no-resolve
+IP-CIDR,142.250.96.188/32,no-resolve
+IP-CIDR,172.217.194.188/32,no-resolve
+IP-CIDR,172.217.218.188/32,no-resolve
+IP-CIDR,172.217.219.188/32,no-resolve
+IP-CIDR,172.253.122.188/32,no-resolve
+IP-CIDR,172.253.63.188/32,no-resolve
+IP-CIDR,173.194.175.188/32,no-resolve
+IP-CIDR,173.194.218.188/32,no-resolve
+IP-CIDR,209.85.233.188/32,no-resolve
+IP-CIDR,64.233.177.188/32,no-resolve
+IP-CIDR,64.233.186.188/32,no-resolve
+IP-CIDR,64.233.187.188/32,no-resolve
+IP-CIDR,64.233.188.188/32,no-resolve
+IP-CIDR,64.233.189.188/32,no-resolve
+IP-CIDR,74.125.127.188/32,no-resolve
+IP-CIDR,74.125.137.188/32,no-resolve
+IP-CIDR,74.125.203.188/32,no-resolve
+IP-CIDR,74.125.204.188/32,no-resolve
+IP-CIDR,74.125.206.188/32,no-resolve
+IP-CIDR,74.125.23.188/32,no-resolve
+IP-CIDR,74.125.24.188/32,no-resolve
+IP-CIDR,74.125.28.188/32,no-resolve
+# Google China
+DOMAIN-SUFFIX,265.com
 DOMAIN-SUFFIX,2mdn.net
-DOMAIN-SUFFIX,app-measurement.net
-DOMAIN-SUFFIX,g.co
-DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,goo.gl
-DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,gstatic.cn
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,gvt0.com
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,gvt3.com
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,ytimg.com
-IP-CIDR,74.125.0.0/16,no-resolve
-IP-CIDR,173.194.0.0/16,no-resolve
+DOMAIN-SUFFIX,alt1-mtalk.google.com
+DOMAIN-SUFFIX,alt2-mtalk.google.com
+DOMAIN-SUFFIX,alt3-mtalk.google.com
+DOMAIN-SUFFIX,alt4-mtalk.google.com
+DOMAIN-SUFFIX,alt5-mtalk.google.com
+DOMAIN-SUFFIX,alt6-mtalk.google.com
+DOMAIN-SUFFIX,alt7-mtalk.google.com
+DOMAIN-SUFFIX,alt8-mtalk.google.com
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,cache.pack.google.com
+DOMAIN-SUFFIX,clickserve.dartsearch.net
+DOMAIN-SUFFIX,crl.pki.goog
+DOMAIN-SUFFIX,dl.google.com
+DOMAIN-SUFFIX,dl.l.google.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googletagservices.com
+DOMAIN-SUFFIX,gtm.oasisfeng.com
+DOMAIN-SUFFIX,ocsp.pki.goog
+DOMAIN-SUFFIX,recaptcha.net
+DOMAIN-SUFFIX,safebrowsing-cache.google.com
+DOMAIN-SUFFIX,settings.crashlytics.com
+DOMAIN-SUFFIX,ssl-google-analytics.l.google.com
+DOMAIN-SUFFIX,toolbarqueries.google.com
+DOMAIN-SUFFIX,tools.google.com
+DOMAIN-SUFFIX,tools.l.google.com
+DOMAIN-SUFFIX,www-googletagmanager.l.google.com
